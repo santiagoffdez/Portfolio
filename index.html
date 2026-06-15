@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santiago Fernandez | Portfolio Data Engineering</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body id="page">
+    <header id="fixed-header">
+      <nav class="navbar">
+        <a href="#hero" class="logo">Santiago Fernandez</a>
+
+        <div class="nav-links">
+          <a href="#pipeline" data-i18n="nav.focus">Objectif</a>
+          <a href="#feat-project" data-i18n="nav.internship">Stage</a>
+          <a href="#projects" data-i18n="nav.projects">Projets</a>
+          <a href="#skills" data-i18n="nav.skills">Compétences</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+
+          <button id="language-toggle" class="language-btn">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero-section">
+        <div class="container hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">
+            BUT Science des Données · Université Grenoble Alpes
+          </p>
+
+          <h1 data-i18n="hero.title">
+            Étudiant en Science des Données orienté
+            <span>Data Engineering</span>
+          </h1>
+
+          <p class="hero-text" data-i18n="hero.description">
+            Je construis des workflows de données avec Python, SQL, des APIs et
+            des outils ETL, de l’extraction des données brutes jusqu’aux
+            dashboards et applications data.
+          </p>
+
+          <div class="hero-buttons">
+            <a
+              href="#projects"
+              class="btn primary-btn"
+              data-i18n="hero.projectsBtn"
+            >
+              Voir mes projets
+            </a>
+            <a
+              href="#contact"
+              class="btn secondary-btn"
+              data-i18n="hero.contactBtn"
+            >
+              Me contacter
+            </a>
+          </div>
+
+          <div class="hero-tags">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>PostgreSQL</span>
+            <span>ETL</span>
+            <span>APIs</span>
+            <span>Flask</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="pipeline" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="pipeline.eyebrow">
+              Mon orientation technique
+            </p>
+
+            <h2 data-i18n="pipeline.title">
+              De la donnée brute aux produits data exploitables
+            </h2>
+
+            <p data-i18n="pipeline.description">
+              Mes projets couvrent plusieurs étapes du cycle de vie de la donnée
+              : extraction, transformation, intégration, analyse et reporting.
+            </p>
+          </div>
+
+          <div class="pipeline-grid">
+            <article class="pipeline-step">
+              <span class="step-number">01</span>
+              <h3 data-i18n="pipeline.extract.title">Extraire</h3>
+              <p data-i18n="pipeline.extract.description">
+                Web scraping, APIs, données JSON et sources externes.
+              </p>
+            </article>
+
+            <article class="pipeline-step">
+              <span class="step-number">02</span>
+              <h3 data-i18n="pipeline.transform.title">Transformer</h3>
+              <p data-i18n="pipeline.transform.description">
+                Nettoyage, formatage, transformations SQL et workflows Pandas.
+              </p>
+            </article>
+
+            <article class="pipeline-step">
+              <span class="step-number">03</span>
+              <h3 data-i18n="pipeline.integrate.title">Intégrer</h3>
+              <p data-i18n="pipeline.integrate.description">
+                Pipelines ETL, workflows EAI, PostgreSQL et systèmes métier.
+              </p>
+            </article>
+
+            <article class="pipeline-step">
+              <span class="step-number">04</span>
+              <h3 data-i18n="pipeline.visualize.title">Visualiser</h3>
+              <p data-i18n="pipeline.visualize.description">
+                Dashboards, applications RShiny, reporting et outils d’aide à la
+                décision.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="feat-project" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="featured.eyebrow">
+              Expérience professionnelle principale
+            </p>
+
+            <h2 data-i18n="featured.title">
+              Stage Data / Intégration — Agil'IT
+            </h2>
+          </div>
+
+          <article class="featured-card">
+            <div class="featured-main">
+              <h3 data-i18n="featured.subtitle">
+                Workflows ETL et EAI pour l’intégration de données métier
+              </h3>
+
+              <p data-i18n="featured.description">
+                Pendant mon stage chez Agil'IT, j’ai travaillé sur des flux
+                d’intégration de données liés à des besoins métier réels :
+                pipelines ETL, workflows documentaires, monitoring et
+                rétro-engineering.
+              </p>
+
+              <ul class="project-list">
+                <li data-i18n="featured.item1">
+                  Pipeline ETL de PostgreSQL vers Sarbacane.
+                </li>
+                <li data-i18n="featured.item2">
+                  Workflows Blueway Phoenix pour le traitement de flux
+                  documentaires.
+                </li>
+                <li data-i18n="featured.item3">
+                  Flux EAI extrayant des écritures comptables depuis Kinexo.
+                </li>
+                <li data-i18n="featured.item4">
+                  Génération de fichiers TXT pour des usages métier en aval.
+                </li>
+                <li data-i18n="featured.item5">
+                  Monitoring, maintenance et documentation de flux existants.
+                </li>
+              </ul>
+            </div>
+
+            <div class="featured-side">
+              <h4 data-i18n="featured.demonstrates.title">
+                Ce que cela démontre
+              </h4>
+
+              <div class="mini-list">
+                <span data-i18n="featured.demo1">Intégration de données</span>
+                <span data-i18n="featured.demo2">Extraction SQL</span>
+                <span data-i18n="featured.demo3">Logique ETL</span>
+                <span data-i18n="featured.demo4">Monitoring de flux</span>
+                <span data-i18n="featured.demo5">Documentation technique</span>
+              </div>
+
+              <h4>Stack</h4>
+
+              <div class="tech-tags">
+                <span>PostgreSQL</span>
+                <span>SQL</span>
+                <span>Blueway Phoenix</span>
+                <span>ETL</span>
+                <span>EAI</span>
+                <span>Sarbacane</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="projects.eyebrow">
+              Projets sélectionnés
+            </p>
+
+            <h2 data-i18n="projects.title">
+              Des projets qui montrent mes compétences en workflow data
+            </h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.webscraping.type">
+                Python · Web scraping
+              </p>
+              <h3 data-i18n="project.webscraping.title">
+                Collecte automatisée de données web
+              </h3>
+              <p data-i18n="project.webscraping.description">
+                Programme Python utilisé pour collecter des relevés de
+                températures depuis Wikipedia, les structurer et les préparer
+                pour l’analyse.
+              </p>
+              <div class="tech-tags">
+                <span>Python</span>
+                <span>BeautifulSoup</span>
+                <span>Pandas</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.lego.type">
+                API · Application web
+              </p>
+              <h3 data-i18n="project.lego.title">
+                LEGO API + Application Flask
+              </h3>
+              <p data-i18n="project.lego.description">
+                Application web utilisant des données de produits LEGO via des
+                APIs, avec traitement JSON et interface Flask.
+              </p>
+              <div class="tech-tags">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>API</span>
+                <span>JSON</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.timeseries.type">
+                R · Prévision
+              </p>
+              <h3 data-i18n="project.timeseries.title">
+                Analyse de séries temporelles
+              </h3>
+              <p data-i18n="project.timeseries.description">
+                Analyse de séries temporelles réelles avec des modèles de
+                décomposition additive et multiplicative, puis validation par
+                l’analyse des résidus.
+              </p>
+              <div class="tech-tags">
+                <span>R</span>
+                <span>R Markdown</span>
+                <span>Séries temporelles</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.sae402.type">
+                RShiny · Reporting
+              </p>
+              <h3 data-i18n="project.sae402.title">
+                SAE 4.02 — Analyse multivariée
+              </h3>
+              <p data-i18n="project.sae402.description">
+                Projet de reporting centré sur l’analyse multivariée et la
+                communication interactive de résultats statistiques.
+              </p>
+              <div class="tech-tags">
+                <span>R</span>
+                <span>RShiny</span>
+                <span>Reporting</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.saevcod.type">
+                Aide à la décision · Dashboard
+              </p>
+              <h3 data-i18n="project.saevcod.title">
+                SAE 4.VCOD.01 — Composant décisionnel
+              </h3>
+              <p data-i18n="project.saevcod.description">
+                Projet d’intégration et de visualisation de données utilisant
+                ArcGIS StoryMap et des outils orientés dashboard.
+              </p>
+              <div class="tech-tags">
+                <span>ArcGIS</span>
+                <span>Dashboard</span>
+                <span>Data integration</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.incubus.type">
+                Personnel · Web
+              </p>
+              <h3 data-i18n="project.incubus.title">Site web Incubus</h3>
+              <p data-i18n="project.incubus.description">
+                Projet web personnel axé sur la structure de page, la
+                présentation visuelle et le développement front-end.
+              </p>
+              <div class="tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.oasis.type">
+                Projet client · Web
+              </p>
+              <h3 data-i18n="project.oasis.title">Site web Bar Oasis</h3>
+              <p data-i18n="project.oasis.description">
+                Site web responsive créé pour afficher le menu d’un bar local.
+              </p>
+              <div class="tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <p class="project-type" data-i18n="project.seinfeld.type">
+                Web · Data visualisation
+              </p>
+
+              <h3 data-i18n="project.seinfeld.title">
+                Analyse des épisodes de Seinfeld
+              </h3>
+
+              <p data-i18n="project.seinfeld.description">
+                Site web permettant d’explorer et de visualiser des données sur
+                les épisodes de Seinfeld à l’aide de graphiques interactifs.
+              </p>
+
+              <div class="tech-tags">
+                <span>PHP</span>
+                <span>JavaScript</span>
+                <span>ECharts</span>
+                <span>HTML</span>
+                <span>Bootstrap</span>
+                <span>CSS</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="skills.eyebrow">Stack technique</p>
+
+            <h2 data-i18n="skills.title">Compétences</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3 data-i18n="skills.dataeng.title">Data Engineering</h3>
+              <p data-i18n="skills.dataeng.description">
+                SQL, PostgreSQL, ETL, EAI, intégration de données, flux de
+                données.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3 data-i18n="skills.python.title">Python & APIs</h3>
+              <p data-i18n="skills.python.description">
+                Python, Pandas, BeautifulSoup, consommation d’APIs, JSON.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3 data-i18n="skills.analysis.title">Analyse & Reporting</h3>
+              <p data-i18n="skills.analysis.description">
+                R, R Markdown, RShiny, analyse multivariée, séries temporelles.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3 data-i18n="skills.web.title">Web & Visualisation</h3>
+              <p data-i18n="skills.web.description">
+                Flask, HTML, CSS, JavaScript, Bootstrap, dashboards.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-card">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+
+          <h2 data-i18n="contact.title">
+            À la recherche d’une alternance en Data Engineering ou en développement logiciel
+          </h2>
+
+          <p data-i18n="contact.description">
+            Je suis intéressé par des missions autour de Python, SQL, ETL, APIs, automatisation, développement web, applications métier et outils de reporting.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:santiagopfp@gmail.com">Email</a>
+            <a href="https://github.com/santiagoffdez" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/santiago-fernandez-a63975348/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const translations = {
+        fr: {
+          "nav.focus": "Objectif",
+          "nav.internship": "Stage",
+          "nav.projects": "Projets",
+          "nav.skills": "Compétences",
+          "nav.contact": "Contact",
+
+          "hero.eyebrow": "BUT Science des Données · Université Grenoble Alpes",
+          "hero.title":
+            "Étudiant en Science des Données orienté <span>Data Engineering</span>",
+          "hero.description":
+            "Je construis des workflows de données avec Python, SQL, des APIs et des outils ETL, de l’extraction des données brutes jusqu’aux dashboards et applications data.",
+          "hero.projectsBtn": "Voir mes projets",
+          "hero.contactBtn": "Me contacter",
+
+          "pipeline.eyebrow": "Mon orientation technique",
+          "pipeline.title": "De la donnée brute aux produits data exploitables",
+          "pipeline.description":
+            "Mes projets couvrent plusieurs étapes du cycle de vie de la donnée : extraction, transformation, intégration, analyse et reporting.",
+          "pipeline.extract.title": "Extraire",
+          "pipeline.extract.description":
+            "Web scraping, APIs, données JSON et sources externes.",
+          "pipeline.transform.title": "Transformer",
+          "pipeline.transform.description":
+            "Nettoyage, formatage, transformations SQL et workflows Pandas.",
+          "pipeline.integrate.title": "Intégrer",
+          "pipeline.integrate.description":
+            "Pipelines ETL, workflows EAI, PostgreSQL et systèmes métier.",
+          "pipeline.visualize.title": "Visualiser",
+          "pipeline.visualize.description":
+            "Dashboards, applications RShiny, reporting et outils d’aide à la décision.",
+
+          "featured.eyebrow": "Expérience professionnelle principale",
+          "featured.title": "Stage Data / Intégration — Agil'IT",
+          "featured.subtitle":
+            "Workflows ETL et EAI pour l’intégration de données métier",
+          "featured.description":
+            "Pendant mon stage chez Agil'IT, j’ai travaillé sur des flux d’intégration de données liés à des besoins métier réels : pipelines ETL, workflows documentaires, monitoring et rétro-engineering.",
+          "featured.item1": "Pipeline ETL de PostgreSQL vers Sarbacane.",
+          "featured.item2":
+            "Workflows Blueway Phoenix pour le traitement de flux documentaires.",
+          "featured.item3":
+            "Flux EAI extrayant des écritures comptables depuis Kinexo.",
+          "featured.item4":
+            "Génération de fichiers TXT pour des usages métier en aval.",
+          "featured.item5":
+            "Monitoring, maintenance et documentation de flux existants.",
+          "featured.demonstrates.title": "Ce que cela démontre",
+          "featured.demo1": "Intégration de données",
+          "featured.demo2": "Extraction SQL",
+          "featured.demo3": "Logique ETL",
+          "featured.demo4": "Monitoring de flux",
+          "featured.demo5": "Documentation technique",
+
+          "projects.eyebrow": "Projets sélectionnés",
+          "projects.title":
+            "Des projets qui montrent mes compétences en workflow data",
+
+          "project.webscraping.type": "Python · Web scraping",
+          "project.webscraping.title": "Collecte automatisée de données web",
+          "project.webscraping.description":
+            "Programme Python utilisé pour collecter des relevés de températures depuis Wikipedia, les structurer et les préparer pour l’analyse.",
+
+          "project.lego.type": "API · Application web",
+          "project.lego.title": "LEGO API + Application Flask",
+          "project.lego.description":
+            "Application web utilisant des données de produits LEGO via des APIs, avec traitement JSON et interface Flask.",
+
+          "project.timeseries.type": "R · Prévision",
+          "project.timeseries.title": "Analyse de séries temporelles",
+          "project.timeseries.description":
+            "Analyse de séries temporelles réelles avec des modèles de décomposition additive et multiplicative, puis validation par l’analyse des résidus.",
+
+          "project.sae402.type": "RShiny · Reporting",
+          "project.sae402.title": "SAE 4.02 — Analyse multivariée",
+          "project.sae402.description":
+            "Projet de reporting centré sur l’analyse multivariée et la communication interactive de résultats statistiques.",
+
+          "project.saevcod.type": "Aide à la décision · Dashboard",
+          "project.saevcod.title": "SAE 4.VCOD.01 — Composant décisionnel",
+          "project.saevcod.description":
+            "Projet d’intégration et de visualisation de données utilisant ArcGIS StoryMap et des outils orientés dashboard.",
+
+          "project.incubus.type": "Personnel · Web",
+          "project.incubus.title": "Site web Incubus",
+          "project.incubus.description":
+            "Projet web personnel axé sur la structure de page, la présentation visuelle et le développement front-end.",
+
+          "project.oasis.type": "Projet client · Web",
+          "project.oasis.title": "Site web Bar Oasis",
+          "project.oasis.description":
+            "Site web responsive créé pour afficher le menu d’un bar local.",
+
+          "project.seinfeld.type": "Web · Data visualisation",
+          "project.seinfeld.title": "Analyse des épisodes de Seinfeld",
+          "project.seinfeld.description":
+            "Site web permettant d’explorer et de visualiser des données sur les épisodes de Seinfeld à l’aide de graphiques interactifs.",
+
+          "skills.eyebrow": "Stack technique",
+          "skills.title": "Compétences",
+          "skills.dataeng.title": "Data Engineering",
+          "skills.dataeng.description":
+            "SQL, PostgreSQL, ETL, EAI, intégration de données, flux de données.",
+          "skills.python.title": "Python & APIs",
+          "skills.python.description":
+            "Python, Pandas, BeautifulSoup, consommation d’APIs, JSON.",
+          "skills.analysis.title": "Analyse & Reporting",
+          "skills.analysis.description":
+            "R, R Markdown, RShiny, analyse multivariée, séries temporelles.",
+          "skills.web.title": "Web & Visualisation",
+          "skills.web.description":
+            "Flask, HTML, CSS, JavaScript, Bootstrap, dashboards.",
+
+          "contact.eyebrow": "Contact",
+          "contact.title":
+            "À la recherche d’une alternance en Data Engineering ou en développement logiciel",
+          "contact.description":
+            "Je suis intéressé par des projets impliquant Python, SQL, des pipelines ETL, des APIs, l’automatisation, la qualité des données et les outils de reporting.",
+        },
+
+        en: {
+          "nav.focus": "Focus",
+          "nav.internship": "Internship",
+          "nav.projects": "Projects",
+          "nav.skills": "Skills",
+          "nav.contact": "Contact",
+
+          "hero.eyebrow": "BUT Science des Données · Université Grenoble Alpes",
+          "hero.title":
+            "Data Science student focused on <span>Data Engineering</span>",
+          "hero.description":
+            "I build data workflows using Python, SQL, APIs and ETL tools, from raw data extraction to dashboards and data applications.",
+          "hero.projectsBtn": "View projects",
+          "hero.contactBtn": "Contact me",
+
+          "pipeline.eyebrow": "My technical direction",
+          "pipeline.title": "From raw data to usable data products",
+          "pipeline.description":
+            "My projects cover several parts of the data workflow: extraction, transformation, integration, analysis and reporting.",
+          "pipeline.extract.title": "Extract",
+          "pipeline.extract.description":
+            "Web scraping, APIs, JSON data and external data sources.",
+          "pipeline.transform.title": "Transform",
+          "pipeline.transform.description":
+            "Cleaning, formatting, SQL transformations and Pandas workflows.",
+          "pipeline.integrate.title": "Integrate",
+          "pipeline.integrate.description":
+            "ETL pipelines, EAI workflows, PostgreSQL and business systems.",
+          "pipeline.visualize.title": "Visualize",
+          "pipeline.visualize.description":
+            "Dashboards, RShiny apps, reporting and decision-support tools.",
+
+          "featured.eyebrow": "Featured professional experience",
+          "featured.title": "Data / Integration Internship — Agil'IT",
+          "featured.subtitle":
+            "ETL and EAI workflows for business data integration",
+          "featured.description":
+            "During my internship at Agil'IT, I worked on data integration flows connected to real business needs: ETL pipelines, document workflows, monitoring and reverse engineering.",
+          "featured.item1": "ETL pipeline from PostgreSQL to Sarbacane.",
+          "featured.item2":
+            "Blueway Phoenix workflows for document flow processing.",
+          "featured.item3":
+            "EAI flow extracting accounting entries from Kinexo.",
+          "featured.item4": "TXT file generation for downstream business use.",
+          "featured.item5":
+            "Monitoring, maintenance and documentation of existing flows.",
+          "featured.demonstrates.title": "What this demonstrates",
+          "featured.demo1": "Data integration",
+          "featured.demo2": "SQL extraction",
+          "featured.demo3": "ETL logic",
+          "featured.demo4": "Flow monitoring",
+          "featured.demo5": "Technical documentation",
+
+          "projects.eyebrow": "Selected projects",
+          "projects.title": "Projects that show my data workflow skills",
+
+          "project.webscraping.type": "Python · Web scraping",
+          "project.webscraping.title": "Automated Web Data Collection",
+          "project.webscraping.description":
+            "Python program used to collect temperature data from Wikipedia, structure it and prepare it for analysis.",
+
+          "project.lego.type": "API · Web application",
+          "project.lego.title": "LEGO API + Flask Application",
+          "project.lego.description":
+            "Web application using LEGO product data from APIs, with JSON processing and a Flask interface.",
+
+          "project.timeseries.type": "R · Forecasting",
+          "project.timeseries.title": "Time Series Analysis",
+          "project.timeseries.description":
+            "Analysis of real time series using additive and multiplicative decomposition models with residual validation.",
+
+          "project.sae402.type": "RShiny · Reporting",
+          "project.sae402.title": "SAE 4.02 — Multivariate Analysis",
+          "project.sae402.description":
+            "Reporting project focused on multivariate analysis and interactive communication of statistical results.",
+
+          "project.saevcod.type": "Decision support · Dashboard",
+          "project.saevcod.title": "SAE 4.VCOD.01 — Decision-Support Component",
+          "project.saevcod.description":
+            "Data integration and visualization project using ArcGIS StoryMap and dashboard-oriented tools.",
+
+          "project.incubus.type": "Personal · Web",
+          "project.incubus.title": "Incubus Website",
+          "project.incubus.description":
+            "Personal web project focused on page structure, visual presentation and front-end development.",
+
+          "project.oasis.type": "Client-style · Web",
+          "project.oasis.title": "Bar Oasis Website",
+          "project.oasis.description":
+            "Responsive website created to display the menu of a local bar.",
+
+          "project.seinfeld.type": "Web · Data visualization",
+          "project.seinfeld.title": "Seinfeld Episode Data Analysis",
+          "project.seinfeld.description":
+            "Website used to explore and visualize data about Seinfeld episodes with interactive charts.",
+
+          "skills.eyebrow": "Technical stack",
+          "skills.title": "Skills",
+          "skills.dataeng.title": "Data Engineering",
+          "skills.dataeng.description":
+            "SQL, PostgreSQL, ETL, EAI, data integration, data flows.",
+          "skills.python.title": "Python & APIs",
+          "skills.python.description":
+            "Python, Pandas, BeautifulSoup, API consumption, JSON.",
+          "skills.analysis.title": "Analysis & Reporting",
+          "skills.analysis.description":
+            "R, R Markdown, RShiny, multivariate analysis, time series.",
+          "skills.web.title": "Web & Visualization",
+          "skills.web.description":
+            "Flask, HTML, CSS, JavaScript, Bootstrap, dashboards.",
+
+          "contact.eyebrow": "Contact",
+          "contact.title":
+            "Looking for a Data Engineering apprenticeship",
+          "contact.description":
+            "I am interested in projects involving Python, SQL, ETL pipelines, APIs, automation, web development, business applications and reporting tools.",
+        },
+      };
+
+      let currentLanguage = localStorage.getItem("language") || "fr";
+
+      const languageToggle = document.getElementById("language-toggle");
+
+      function updateLanguage(language) {
+        document.documentElement.lang = language;
+
+        const elements = document.querySelectorAll("[data-i18n]");
+
+        elements.forEach((element) => {
+          const key = element.getAttribute("data-i18n");
+
+          if (translations[language][key]) {
+            element.innerHTML = translations[language][key];
+          }
+        });
+
+        languageToggle.textContent = language === "fr" ? "EN" : "FR";
+        localStorage.setItem("language", language);
+      }
+
+      languageToggle.addEventListener("click", () => {
+        currentLanguage = currentLanguage === "fr" ? "en" : "fr";
+        updateLanguage(currentLanguage);
+      });
+
+      updateLanguage(currentLanguage);
+    </script>
+  </body>
+</html>
