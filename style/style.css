@@ -101,10 +101,6 @@ body {
   color: var(--accent);
 }
 
-/* =========================
-   GENERAL LAYOUT
-========================= */
-
 .section {
   padding: 90px 24px;
   scroll-margin-top: 90px;
@@ -158,10 +154,6 @@ h3 {
 p {
   color: var(--muted);
 }
-
-/* =========================
-   HERO
-========================= */
 
 .hero-section {
   min-height: calc(100vh - 72px);
@@ -233,10 +225,6 @@ p {
   font-size: 0.9rem;
 }
 
-/* =========================
-   PIPELINE
-========================= */
-
 .pipeline-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -265,10 +253,6 @@ p {
   display: inline-block;
   margin-bottom: 16px;
 }
-
-/* =========================
-   FEATURED PROJECT
-========================= */
 
 .featured-card {
   display: grid;
@@ -330,10 +314,6 @@ p {
   padding-bottom: 8px;
 }
 
-/* =========================
-   PROJECTS
-========================= */
-
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -382,19 +362,11 @@ p {
   border-radius: 999px;
 }
 
-/* =========================
-   SKILLS
-========================= */
-
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
-
-/* =========================
-   CONTACT
-========================= */
 
 .contact-section {
   padding-bottom: 120px;
@@ -439,9 +411,34 @@ p {
   border-color: var(--accent);
 }
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-radius: 999px;
+  padding: 7px 12px;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.project-links a:hover {
+  color: #0f172a;
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
 
 @media (max-width: 900px) {
   .pipeline-grid,
